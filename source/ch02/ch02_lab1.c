@@ -6,10 +6,10 @@ int main(void)
 	int kor = 90;
 	int music = 80;
 	int eng = 90;
-	printf("¼öÇĞ : %d\n", math);
-	printf("±¹¾î : %d\n", kor); 
-	printf("À½¾Ç : %d\n", music);
-	printf("¿µ¾î : %d\n", eng);
+	printf("ìˆ˜í•™ : %d\n", math);
+	printf("êµ­ì–´ : %d\n", kor); 
+	printf("ìŒì•… : %d\n", music);
+	printf("ì˜ì–´ : %d\n", eng);
 
 
 	return 0;
