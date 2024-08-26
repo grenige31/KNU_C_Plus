@@ -10,5 +10,7 @@ int main(void)
 	printf("국어 : %d\n", kor); 
 	printf("음악 : %d\n", music);
 	printf("영어 : %d\n", eng);
+	printf("영어 : %d\n", eng);
+
 	return 0;
 }
