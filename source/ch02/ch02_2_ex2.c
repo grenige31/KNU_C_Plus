@@ -1,4 +1,4 @@
-/*
+
 #include <stdio.h>
 
 int main(void)
@@ -17,6 +17,6 @@ int main(void)
 	printf("변수 사용2 x=%d, y=%d\n", x, y);
 	return 0;
 }
-*/
+
 
 
