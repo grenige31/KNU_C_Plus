@@ -1,4 +1,4 @@
-
+/*
 #include <stdio.h>
 
 int main(void)
@@ -23,3 +23,4 @@ int main(void)
 	printf("%f , %f\n", i, j);
 	return 0;
 }
+*/
