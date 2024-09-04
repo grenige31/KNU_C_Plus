@@ -1,9 +1,8 @@
-
 #include <stdio.h>
 
 int main(void)
 {
-    int x = 0;
+    int x=0;
 
     printf("변수x의 크기: %d\n", sizeof(x));
     printf("char형의 크기: %d\n", sizeof(char));
