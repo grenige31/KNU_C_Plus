@@ -7,13 +7,13 @@ int main(void)
     char gender = 0;
     int age = 0;
 
-    scanf("%gender %d", &gender, &age);
+    scanf("%c %d", &gender, &age);
 
     if (gender == 'M') {
         if(age>18)
         {
             printf("MAN");
-        }
+        } 
         else 
         {
             printf("BOY");

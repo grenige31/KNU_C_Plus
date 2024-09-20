@@ -4,22 +4,22 @@
 
 int main(void)
 {
-    int c = 0;
+    int grade = 0;
 
-    scanf("%C", &c);
-    if (c == 'A') {
+    scanf("%c", &grade);
+    if (grade == 'A') {
         printf("Excellent");
     }
-    else if (c == 'B') {
+    else if (grade == 'B') {
         printf("Good");
     }
-    else if (c == 'C') {
+    else if (grade == 'C') {
         printf("Usually");
     }
-    else if (c == 'D') {
+    else if (grade == 'D') {
         printf("Effort");
     }
-    else if (c == 'F') {
+    else if (grade == 'F') {
         printf("Failure");
     }
     else {

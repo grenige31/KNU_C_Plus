@@ -1,17 +1,17 @@
 #define _CRT_SECURE_NO_WARNINGS
 
-#include "stdio.h"
+#include <stdio.h>
 
 int main(void)
 {
-    int i = 0, j = 0, k = 0;
+    int height = 0, weight = 0, obesity = 0;
 
-    scanf("%d %d", &i, &j);
+    scanf("%d %d", &height, &weight);
 
-    k = (j + 100) - i;
-    printf("%d\r\n", k);
+    obesity = (weight + 100) - height;
+    printf("%d\n", obesity);
 
-    if (k > 0) {
+    if (obesity > 0) {
         printf("Obesity");
     }
 

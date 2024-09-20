@@ -7,12 +7,12 @@ int main(void)
 
     scanf("%d", &i);
     if (i < 0) {
-        printf("%d\r\n", i);
+        printf("%d\n", i);
         printf("minus");
 
     }
     else {
-        printf("%d\r\n", i);
+        printf("%d\n", i);
     }
 
     return 0;

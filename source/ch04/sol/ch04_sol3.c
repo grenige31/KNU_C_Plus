@@ -4,14 +4,14 @@
 
 int main(void)
 {
-    int i = 0;
+    int age = 0;
 
-    scanf("%d", &i);
-    if (i > 20) {
+    scanf("%d", &age);
+    if (age > 20) {
         printf("adult");
     }
     else {
-        printf("%d years later\r\n", 20 - i);
+        printf("%d years later\n", 20 - age);
     }
 
     return 0;
