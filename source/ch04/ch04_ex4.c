@@ -1,22 +1,20 @@
 #define _CRT_SECURE_NO_WARNINGS
+// 3의 배수인수 판단 
 #include <stdio.h> 
+
 int main(void)
 {
-	int n1, n2, n3;
+	int num;
+	printf("숫자를 입력하시오: ");
+	scanf("%d", &num);
 
-	printf("정수를 입력하시오: ");
-	scanf("%d", &n1);
-	printf("정수를 입력하시오: ");
-	scanf("%d", &n2);
-
-	if (n2 == 0) 				// 분모가 0인지 검사
+	if (num % 3 == 0)
 	{
-		printf("0으로 나눌 수는 없습니다.\n");
+		printf("3의 배수임.\n", num);
 	}
 	else
 	{
-		n3 = n1 / n2; 				 // 나눗셈 실행
-		printf("결과는 %d입니다.\n", n3);
+		printf("3의 배수 아님 \n", num);
 	}
 	return 0;
 }
