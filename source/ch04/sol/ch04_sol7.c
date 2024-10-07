@@ -4,19 +4,34 @@
 
 int main(void)
 {
-    float i = 0, j = 0;
+    char gender = 0;
+    int age = 0;
 
-    scanf("%f %f", &i, &j);
+    scanf("%c %d", &gender, &age);
 
-    if (i >= 4 && j >= 4) {
-        printf("A");
+    if (gender == 'M') {
+        if(age>18)
+        {
+            printf("MAN");
+        } 
+        else 
+        {
+            printf("BOY");
+        }
+            
     }
-    else if (i >= 3 && j >= 3) {
-        printf("B");
-    }
+   
     else {
-        printf("C");
+        if (age > 18)
+        {
+            printf("WOMAN");
+        }
+        else
+        {
+            printf("GIRL");
+        }
+        
     }
-
+   
     return 0;
 }

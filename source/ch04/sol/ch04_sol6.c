@@ -4,25 +4,19 @@
 
 int main(void)
 {
-    float i = 0;
+    float i = 0, j = 0;
 
-    scanf("%f", &i);
-    switch ((int)i) {
-    case 4:
-        printf("scholarship");
-        break;
-    case 3:
-        printf("next semester");
-        break;
-    case 2:
-        printf("seasonal semester");
-        break;
-    case 1:
-    case 0:
-        printf("retake");
-        break;
+    scanf("%f %f", &i, &j);
 
-
+    if (i >= 4 && j >= 4) {
+        printf("A");
     }
+    else if (i >= 3 && j >= 3) {
+        printf("B");
+    }
+    else {
+        printf("C");
+    }
+
     return 0;
 }

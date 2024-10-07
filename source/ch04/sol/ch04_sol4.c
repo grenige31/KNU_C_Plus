@@ -4,15 +4,26 @@
 
 int main(void)
 {
-    int i = 0, j = 0;
+    int grade = 0;
 
-    scanf("%d %d", &i, &j);
-
-    if (i < j) {
-        printf("%d", j - i);
+    scanf("%c", &grade);
+    if (grade == 'A') {
+        printf("Excellent");
+    }
+    else if (grade == 'B') {
+        printf("Good");
+    }
+    else if (grade == 'C') {
+        printf("Usually");
+    }
+    else if (grade == 'D') {
+        printf("Effort");
+    }
+    else if (grade == 'F') {
+        printf("Failure");
     }
     else {
-        printf("%d", i - j);
+        printf("error");
     }
 
     return 0;

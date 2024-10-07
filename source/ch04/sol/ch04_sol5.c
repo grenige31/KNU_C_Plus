@@ -4,27 +4,25 @@
 
 int main(void)
 {
-    int grade = 0;
+    float i = 0;
 
-    scanf("%c", &grade);
-    if (grade == 'A') {
-        printf("Excellent");
-    }
-    else if (grade == 'B') {
-        printf("Good");
-    }
-    else if (grade == 'C') {
-        printf("Usually");
-    }
-    else if (grade == 'D') {
-        printf("Effort");
-    }
-    else if (grade == 'F') {
-        printf("Failure");
-    }
-    else {
-        printf("error");
-    }
+    scanf("%f", &i);
+    switch ((int)i) {
+    case 4:
+        printf("scholarship");
+        break;
+    case 3:
+        printf("next semester");
+        break;
+    case 2:
+        printf("seasonal semester");
+        break;
+    case 1:
+    case 0:
+        printf("retake");
+        break;
 
+
+    }
     return 0;
 }

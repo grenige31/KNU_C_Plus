@@ -1,21 +1,18 @@
 #define _CRT_SECURE_NO_WARNINGS
+
 #include "stdio.h"
 
 int main(void)
 {
-    int i = 0;
+    int age = 0;
 
-    scanf("%d", &i);
-    if (i < 0) {
-        printf("%d\n", i);
-        printf("minus");
-
+    scanf("%d", &age);
+    if (age > 20) {
+        printf("adult");
     }
     else {
-        printf("%d\n", i);
+        printf("%d years later\n", 20 - age);
     }
 
     return 0;
 }
-
-
