@@ -26,11 +26,11 @@ int main() {
 	Circle donut; 
 	donut.setRadius(d_r);
 	double area = donut.getArea(); 
-	cout << "donut 면적은 " << area << endl;
+	cout << "donut area : " << area << endl;
 
 	Circle pizza; 
 	int p_r = 30;
 	pizza.setRadius(p_r);
-	area = pizza.getArea(); // pizza 객체의 면적 알아내기
-	cout << "pizza 면적은 " << area << endl;
+	area = pizza.getArea(); 
+	cout << "pizza area : " << area << endl;
 }

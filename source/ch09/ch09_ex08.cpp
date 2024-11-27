@@ -12,16 +12,16 @@ public:
 
 Circle::Circle() {
 	radius = 1;
-	cout << "반지름 " << radius << " 원 생성" << endl;
+	cout << "Circle() - radius " << radius << endl;
 }
 
 Circle::Circle(int r) {
 	radius = r;
-	cout << "반지름 " << radius << " 원 생성" << endl;
+	cout << "Circle(int r) - radius " << radius  << endl;
 }
 
 Circle::~Circle() {
-	cout << "반지름 " << radius << " 원 소멸" << endl;
+	cout << "~Circle() - radius " << radius <<  endl;
 }
 
 double Circle::getArea() {
