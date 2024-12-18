@@ -14,12 +14,12 @@ public:
 Circle::Circle() {
 	this->radius = 1;
 }
-
 Circle::Circle(int radius) {
+	cout << "Circle-1 : " << this->radius  <<" , " << radius << endl;
 	this->radius = radius;
 }
-
 void Circle::setRadius(int radius) {
+	cout << "setRadius : " << this->radius << " , " << radius << endl;
 	this->radius = radius;
 }
 double Circle::getArea() {
@@ -29,15 +29,13 @@ double Circle::getArea() {
 Circle::~Circle() {
 }
 
-
 int main() {
 	Circle c1;
 	Circle c2(2);
-	Circle c3(3);
-
+	int area = c2.getArea();
+	cout << "area : " << area << endl;
 
 	c1.setRadius(4);
 	c2.setRadius(5);
-	c3.setRadius(6);
-
+	return 0;
 }

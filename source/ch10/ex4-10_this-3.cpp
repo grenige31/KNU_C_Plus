@@ -5,24 +5,22 @@ class Circle {
 	int radius;
 public:
 	Circle();
-	Circle(int radius);
+	Circle(int r);
 	~Circle();
-	void setRadius(int radius);
+	void setRadius(int r);
 	double getArea();
 };
 
 Circle::Circle() {
-	radius = 1;
+	this->radius = 1;
 }
-
-Circle::Circle(int radius) {
-	cout << "Circle-1 : " << radius << endl;
-	radius = radius;
+Circle::Circle(int r) {
+	cout << "Circle-1 : " << r << endl;
+	radius = r;
 }
-
-void Circle::setRadius(int radius) {
-	cout << "setRadius : " << radius << endl;
-	radius = radius;
+void Circle::setRadius(int r) {
+	cout << "setRadius : " <<  r << endl;
+	radius = r;
 }
 double Circle::getArea() {
 	return 3.14 * radius * radius;
@@ -34,8 +32,7 @@ Circle::~Circle() {
 int main() {
 	Circle c1;
 	Circle c2(2);
-
-	int area = c2.getArea();
+	double area = c2.getArea();
 	cout << "area : " << area << endl;
 
 	c1.setRadius(4);
