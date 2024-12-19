@@ -26,7 +26,8 @@ Person::Person(Person& person) { // 복사 생성자
 	int len = strlen(person.name);// name의 문자 개수
 	this->name = new char [len+1]; // name을 위한 공간 핟당
 	strcpy(this->name, person.name); // name의 문자열 복사
-	cout << "복사 생성자 실행 " << this->name << endl;
+	cout << "copy : " << name << endl;
+	
 }
 
 Person::~Person() {// 소멸자
